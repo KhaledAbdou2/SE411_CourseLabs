@@ -10,7 +10,7 @@ Solutions and exercises for the SE411 Software Construction course.
 | 02 | Java generics | [lab02/src](lab02/src) |
 | 03 | JUnit | [lab03](lab03) |
 | 04 | Maven and JavaFX | [lab04](lab04/README.md) |
-| 05 | Exception handling | Pending |
+| 05 | Exception handling | [lab05](lab05/README.md) |
 
 ## Development
 
@@ -21,6 +21,8 @@ Each lab has its own folder; run Maven commands inside that lab.
 - Lab 02: plain Java sources in `lab02/src`.
 - Lab 03: run `mvn test` inside `lab03`.
 - Lab 04: see its README for the JavaFX app and documentation site.
+- Lab 05: run `mvn clean package exec:java` inside `lab05`.
+  The implementation and tests are included; the required Copilot review is pending.
 
 ## Local files
 
