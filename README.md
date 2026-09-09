@@ -22,7 +22,7 @@ Each lab has its own folder; run Maven commands inside that lab.
 - Lab 03: run `mvn test` inside `lab03`.
 - Lab 04: see its README for the JavaFX app and documentation site.
 - Lab 05: run `mvn clean package exec:java` inside `lab05`.
-  The implementation and tests are included; the required Copilot review is pending.
+  Implementation, tests, and the [Copilot review](lab05/COPILOT_REVIEW.md) are complete.
 
 ## Local files
 

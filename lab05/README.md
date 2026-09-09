@@ -24,8 +24,6 @@ Money uses exact decimal arithmetic. Null, negative opening balances,
 nonpositive withdrawals, and fractional cents are rejected before mutation.
 Eight JUnit tests cover age boundaries, transfers, overdrafts, and invalid input.
 
-## Required Copilot review
-Pending: GitHub Copilot is not installed or available in the current environment.
-Ask Copilot: "Review Lab 05 exception handling: checked exceptions, specific catch
-blocks, useful messages, validation, and unchanged balances after failed withdrawals."
-Record its actual findings after completing that review; JUnit checks do not replace it.
+## Copilot review
+Completed on 2026-09-09. Copilot found no source defects; no code changes were needed.
+See [Copilot review](COPILOT_REVIEW.md) for findings and the verified Maven test result.
