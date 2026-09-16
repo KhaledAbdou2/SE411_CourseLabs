@@ -29,3 +29,6 @@ replay_pid*
 
 # Maven build output
 **/target/
+
+# Runtime logging output (including log.out)
+**/logs/

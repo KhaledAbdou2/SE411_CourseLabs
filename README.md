@@ -11,6 +11,7 @@ Solutions and exercises for the SE411 Software Construction course.
 | 03 | JUnit | [lab03](lab03) |
 | 04 | Maven and JavaFX | [lab04](lab04/README.md) |
 | 05 | Exception handling | [lab05](lab05/README.md) |
+| 06 | Logging with SLF4J | [lab06](lab06/README.md) |
 
 ## Development
 
@@ -23,6 +24,8 @@ Each lab has its own folder; run Maven commands inside that lab.
 - Lab 04: see its README for the JavaFX app and documentation site.
 - Lab 05: run `mvn clean package exec:java` inside `lab05`.
   Implementation, tests, and the [Copilot review](lab05/COPILOT_REVIEW.md) are complete.
+- Lab 06: run `mvn clean package exec:java` inside `lab06`.
+  Its README covers logging profiles, level checks, and the completed AI review.
 
 ## Local files
 
