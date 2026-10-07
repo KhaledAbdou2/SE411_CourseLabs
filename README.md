@@ -14,6 +14,7 @@ Solutions and exercises for the SE411 Software Construction course.
 | 06 | Logging with SLF4J | [lab06](lab06/README.md) |
 | 07 | Polymorphism | [lab07](lab07/README.md) |
 | 08 | Observer pattern | [lab08](lab08/README.md) |
+| 09 | Generic inventory and strategy pattern | [lab09](lab09/README.md) |
 
 ## Development
 
@@ -30,6 +31,7 @@ Each lab has its own folder; run Maven commands inside that lab.
   Its README covers logging profiles, level checks, and the completed AI review.
 - Lab 07: run `mvn clean package exec:java` inside `lab07` for the booking demo.
 - Lab 08: run `mvn clean package exec:java` inside `lab08` for the sensor simulation.
+- Lab 09: run `mvn clean package exec:java` inside `lab09` for the inventory demo.
 
 ## Local files
 
