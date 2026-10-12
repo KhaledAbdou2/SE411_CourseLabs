@@ -15,6 +15,7 @@ Solutions and exercises for the SE411 Software Construction course.
 | 07 | Polymorphism | [lab07](lab07/README.md) |
 | 08 | Observer pattern | [lab08](lab08/README.md) |
 | 09 | Generic inventory and strategy pattern | [lab09](lab09/README.md) |
+| 11 | Threads and synchronized transactions | [lab11](lab11/README.md) |
 
 ## Development
 
@@ -32,6 +33,7 @@ Each lab has its own folder; run Maven commands inside that lab.
 - Lab 07: run `mvn clean package exec:java` inside `lab07` for the booking demo.
 - Lab 08: run `mvn clean package exec:java` inside `lab08` for the sensor simulation.
 - Lab 09: run `mvn clean package exec:java` inside `lab09` for the inventory demo.
+- Lab 11: run `mvn clean package exec:java` inside `lab11` for the unsafe and synchronized transaction demos.
 
 ## Local files
 
