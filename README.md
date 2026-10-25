@@ -16,6 +16,7 @@ Solutions and exercises for the SE411 Software Construction course.
 | 08 | Observer pattern | [lab08](lab08/README.md) |
 | 09 | Generic inventory and strategy pattern | [lab09](lab09/README.md) |
 | 11 | Threads and synchronized transactions | [lab11](lab11/README.md) |
+| 12 | Thread pools and ordered locks | [lab12](lab12/README.md) |
 
 ## Development
 
@@ -34,6 +35,7 @@ Each lab has its own folder; run Maven commands inside that lab.
 - Lab 08: run `mvn clean package exec:java` inside `lab08` for the sensor simulation.
 - Lab 09: run `mvn clean package exec:java` inside `lab09` for the inventory demo.
 - Lab 11: run `mvn clean package exec:java` inside `lab11` for the unsafe and synchronized transaction demos.
+- Lab 12: see its README for fixed/cached pool comparisons and ordered account locks.
 
 ## Local files
 
