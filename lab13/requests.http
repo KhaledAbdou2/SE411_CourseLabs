@@ -1,0 +1,11 @@
+### All products
+GET http://localhost:8080/api/v1/products
+
+### Find existing product
+GET http://localhost:8080/api/v1/products/10
+
+### Missing product: 404
+GET http://localhost:8080/api/v1/products/99999
+
+### Invalid ID: 400
+GET http://localhost:8080/api/v1/products/-1
