@@ -1,0 +1,35 @@
+### List seed courses
+GET http://localhost:3000/api/v1/courses
+
+### Create: 201 plus Location
+POST http://localhost:3000/api/v1/courses
+Content-Type: application/json
+
+{"id":100,"code":"SE411","name":"Software Construction","description":"Spring CRUD lab","credits":3}
+
+### Read: 200
+GET http://localhost:3000/api/v1/courses/100
+
+### Update: 204
+PUT http://localhost:3000/api/v1/courses/100
+Content-Type: application/json
+
+{"id":100,"code":"SE411","name":"Software Construction Updated","description":"Updated description","credits":4}
+
+### Delete: 204
+DELETE http://localhost:3000/api/v1/courses/100
+
+### Deleted course: 404
+GET http://localhost:3000/api/v1/courses/100
+
+### Invalid body: 400
+POST http://localhost:3000/api/v1/courses
+Content-Type: application/json
+
+{"id":-1,"code":"","name":"A","credits":11}
+
+### Existing ID: 422
+POST http://localhost:3000/api/v1/courses
+Content-Type: application/json
+
+{"id":1,"code":"SE411","name":"Duplicate ID","credits":3}
