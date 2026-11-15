@@ -20,6 +20,7 @@ Solutions and exercises for the SE411 Software Construction course.
 | 13 | Spring product API | [lab13](lab13/README.md) |
 | 14 | Spring course CRUD API | [lab14](lab14/README.md) |
 | 15 | MySQL product CRUD | [lab15](lab15/README.md) |
+| 16 | Spring Security and MySQL | [lab16](lab16/README.md) |
 
 ## Development
 
