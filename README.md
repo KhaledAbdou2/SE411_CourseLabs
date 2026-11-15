@@ -19,6 +19,7 @@ Solutions and exercises for the SE411 Software Construction course.
 | 12 | Thread pools and ordered locks | [lab12](lab12/README.md) |
 | 13 | Spring product API | [lab13](lab13/README.md) |
 | 14 | Spring course CRUD API | [lab14](lab14/README.md) |
+| 15 | MySQL product CRUD | [lab15](lab15/README.md) |
 
 ## Development
 
